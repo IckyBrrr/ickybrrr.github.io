@@ -1,0 +1,5 @@
+# CV LaTeX source: kept locally, not published
+files/main.tex
+*.aux
+*.log
+*.out
