@@ -1,6 +1,6 @@
 # Academic website
 
-Plain HTML/CSS site hosted on GitHub Pages at https://nickraybrown.com
+Plain HTML/CSS site hosted on GitHub Pages at https://www.nickraybrown.com
 
 ## Structure
 | File | What it is |
