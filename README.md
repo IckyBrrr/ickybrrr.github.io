@@ -1,6 +1,6 @@
 # Academic website
 
-Plain HTML/CSS site hosted on GitHub Pages at https://ickybrrr.github.io
+Plain HTML/CSS site hosted on GitHub Pages at https://nickraybrown.com
 
 ## Structure
 | File | What it is |
