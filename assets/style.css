@@ -78,11 +78,13 @@ main { padding: 2.5rem 0 3rem; }
   display: grid;
   grid-template-columns: 200px 1fr;
   gap: 2rem;
-  align-items: start;
+  align-items: stretch;
 }
+.intro > div > p:last-child { margin-bottom: 0; }
 .intro img {
   width: 200px;
-  height: 200px;
+  height: 100%;
+  min-height: 200px;
   border-radius: 8px;
   object-fit: cover;
   border: 1px solid var(--border);
@@ -145,7 +147,7 @@ footer {
 @media (max-width: 640px) {
   body { font-size: 17px; }
   .intro { grid-template-columns: 1fr; gap: 1.25rem; }
-  .intro img { width: 150px; height: 150px; }
+  .intro img { width: 150px; height: 150px; min-height: 0; }
   nav a { margin-left: 1rem; display: inline-block; padding: .5rem 0; }
   .paper .actions a { display: inline-block; padding: .4rem 0; }
   .refs a, .intro a { overflow-wrap: anywhere; }
